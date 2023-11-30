@@ -1,0 +1,212 @@
+
+
+header {
+  background-color:#0000FF ;
+  color: #00008B;
+  text-align: center;
+  padding: 50px;
+  font-size:50px;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #00008B;
+  text-align: center;
+  font:12px;
+}
+
+
+
+h2{
+  color: #00008B;
+  text-align: center;
+}
+h3{
+  color: #00008B;
+  text-align: center;
+}
+h4{
+  color:#00008B;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+.column-image {
+    width: 10%; /* Width of each image */
+    box-sizing: border-box; /* To ensure paddings and borders don't expand the image beyond the set width */
+    margin: 0 1%; /* Small margin for spacing */
+    
+}
+
+
+
+
+ .row{
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  .column{
+    flex:1;
+    padding:20 px;
+    margin:10px;
+    border:10px solid #00008B;
+    box-shadow:0.4px 8px rgba(0,0,0,0);
+  }
+  
+  h2{
+    margin-top:4;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  .btn-link3:hover {
+    background-color: #00008B;
+}
+
+.row {
+    display: flex;
+    justify-content:center;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  li {
+  display: inline;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #ADD8E6;
+}
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Dropdown Button */
+.dropbtn {
+  background-color: red;
+  color: black;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+}
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ADD8E6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ADD8E6;}
+
+/* Show the dropdown menu on hover */
+.dropdown:click .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ADD8E6;}
+
+
+
+
+
